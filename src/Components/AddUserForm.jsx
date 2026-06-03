@@ -7,8 +7,7 @@ const AddUserForm = () => {
   // 1) grab your mutation
   const {
     mutate: addUser,
-    isLoading: 
-    isAdding,
+    isPending,
     isError,
     error,
     isSuccess,
